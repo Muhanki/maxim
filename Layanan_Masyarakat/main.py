@@ -1,3 +1,4 @@
+
 import streamlit as st
 from jarak_tempuh import hitung_jarak
 from estimasi_tarif import hitung_tarif
@@ -6,7 +7,7 @@ from cek_rute import cek_rute
 from kendaraan import detail_kendaraan
 
 def main():
-    st.sidebar.title("Aplikasi Transportasi Sederhana")
+    st.sidebar.title("Aplikasi Transportasi Sederhana Banget")
     menu = st.sidebar.radio("Pilih Menu:", ["Jarak Tempuh", "Estimasi Tarif", "Estimasi Waktu", "Cek Rute", "Detail Kendaraan"])
 
     if menu == "Jarak Tempuh":
